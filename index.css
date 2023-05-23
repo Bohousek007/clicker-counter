@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: hidden;
+    height: 100vh;
+}
+
+h1 {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: ridge;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background: darkgreen;
+}
+
+#save-btn {
+    background: darkblue;
+}
+
+#increment-btn:hover {
+    opacity: 0.8;
+}
+
+
+#save-btn:hover {
+    opacity: 0.8;
+}
+
+
+#save-btn:active {
+    color: black;
+}
+
+#increment-btn:active {
+    color: black;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: solid 5px;
+    border-radius: 15px;
+}
